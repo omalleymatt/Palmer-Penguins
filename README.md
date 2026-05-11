@@ -1,4 +1,4 @@
-# Palmer Penguins — LLM-Assisted EDA
+# Palmer Penguins — LLM-Assisted EDA and Predictive Modeling
 
 This project explores the Palmer Penguins dataset using a locally running Gemma 3 12B language model via LM Studio. The idea is to use natural language prompts to generate and execute data analysis code directly within a Jupyter notebook.
 

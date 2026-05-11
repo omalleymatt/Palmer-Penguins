@@ -10,7 +10,11 @@ While I have extensive experience using cloud-based LLMs to support data science
     
 3. Security: The model does not see the records themselves--it only sees the context. And even what it does see doesn't leave the local machine.
 
-I've been happy with the results so far, and hope to do more in-depth work on more complex datasets with locally-hosted LLMs in the future.
+I've been happy with the results so far, and hope to do more in-depth work on more complex datasets with locally-hosted LLMs in the future. 
+
+## Current Challenge
+
+For simple EDA tasks, short, simple prompts seem to work well--the preprogrammed context is doing its job. As I tried multi-step analysis like displaying a correlation matrix as a heatmap, context becomes an issue. I'm coming across the issue of having a single context statement that goes to the model with each prompt--I can't add to it as I go, because that will create issues with earlier prompts. I'm looking into dynamic context options.
 
 ## Project Structure
 

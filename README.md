@@ -28,4 +28,4 @@ A context-aware prompt template feeds the model information about the dataset--c
 
 ## Dataset
 
-Palmer Penguins is a widely used dataset for data science education, containing measurements for three penguin species observed across three islands in the Palmer Archipelago, Antarctica. I chose it for this project because I wanted somethig clean and manageable for testing smaller LLM capabilities. 
+Palmer Penguins is a widely used dataset for data science education, containing measurements for three penguin species observed across three islands in the Palmer Archipelago, Antarctica. I chose it for this project because I wanted something clean and manageable for testing local LLM capabilities. 

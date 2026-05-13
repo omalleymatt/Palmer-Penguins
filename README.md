@@ -22,7 +22,6 @@ Other ideas to try soon:
 
 ## Project Structure
 
-- notebooks/eda.ipynb — initial exploratory data analysis performed manually, covering basic exploration of the dataset's structure and distributions
 - notebooks/llm_eda.ipynb — LLM-assisted analysis using a locally running Gemma 3 12B model, with a custom prompt pipeline that generates and auto-executes Python code in response to natural language queries
 
 

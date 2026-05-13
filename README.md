@@ -14,7 +14,11 @@ I've been happy with the results so far, and hope to do more in-depth work on mo
 
 ## Current Challenge
 
-For simple EDA tasks, short, simple prompts seem to work well--the preprogrammed context is doing its job. As I tried multi-step analysis like displaying a correlation matrix as a heatmap, context becomes an issue. I'm coming across the issue of having a single context statement that goes to the model with each prompt--I can't add to it as I go, because that will create issues with earlier prompts. I'm looking into dynamic context options.
+For simple EDA tasks, short, simple prompts seem to work well--the preprogrammed context is doing its job. As I tried multi-step analysis like displaying a correlation matrix as a heatmap, and the more complicated steps to prepare the data for modeling, context becomes an issue. I'm coming across the issue of having a single context statement that goes to the model with each prompt--I can't add to it as I go, because that will create issues with earlier prompts. I'm looking into dynamic context options.
+
+Other ideas to try soon:
+- Adding a simpler prompting function where I can just specify the context within each prompt to test out different ways to phrase the context
+- Building a function where the model will ask clarifying questions instead of making assumptions when the context is insufficient
 
 ## Project Structure
 
